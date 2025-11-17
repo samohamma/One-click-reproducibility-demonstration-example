@@ -32,7 +32,9 @@ RERITE_demo/
 ├── results/         # Reproducible outputs (CSV, PNG)
 ├── reports/         # Auto-generated LaTeX + PDF manuscript
 ├── environment.yml  # Reproducible Conda environment
+├── readme.md  # Reproducible Conda environment
 └── main.ipynb       # End-to-end reproducible workflow
+
 ```
 
 ---

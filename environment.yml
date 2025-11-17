@@ -1,0 +1,21 @@
+name: RERITE_demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - plotnine
+
+  # ---------- PDF / LaTeX BUILD SUPPORT ----------
+  # Full TeX Live installation for automatic PDF generation
+  - tectonic            # simple, modern LaTeX compiler (recommended)
+  - texlive-core        # latex, pdflatex, basic packages
+  - texlive-latex-extra # figures, table, caption, elsarticle compatibility
+  - texlive-fonts-extra # ensures fonts work for PDF builds
+
+  # Shell utilities used by subprocess
+  - make
+  - pip
